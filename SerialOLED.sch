@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3263,9 +3263,15 @@ Often, even a 6 pin header is really inconvenient for board layout and/or produc
 <instance part="RST" gate="G$1" x="47.625" y="160.655" smashed="yes">
 <attribute name="NAME" x="45.085" y="162.687" size="1.27" layer="95" font="vector"/>
 </instance>
-<instance part="PB2" gate="G$1" x="139.7" y="129.54" rot="R270"/>
-<instance part="INT1" gate="G$1" x="132.08" y="129.54" rot="MR90"/>
-<instance part="INT0" gate="G$1" x="124.46" y="129.54" rot="R270"/>
+<instance part="PB2" gate="G$1" x="139.7" y="129.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="141.986" y="131.318" size="1.27" layer="95" font="vector" rot="R270"/>
+</instance>
+<instance part="INT1" gate="G$1" x="132.08" y="129.54" smashed="yes" rot="MR90">
+<attribute name="NAME" x="135.636" y="132.08" size="1.27" layer="95" font="vector" rot="MR270"/>
+</instance>
+<instance part="INT0" gate="G$1" x="124.46" y="129.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="126.492" y="132.08" size="1.27" layer="95" font="vector" rot="R270"/>
+</instance>
 <instance part="R2" gate="G$1" x="124.46" y="106.68" rot="R90"/>
 <instance part="R3" gate="G$1" x="132.08" y="106.68" rot="R270"/>
 <instance part="R4" gate="G$1" x="139.7" y="106.68" rot="R270"/>
