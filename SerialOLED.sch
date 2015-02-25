@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1700,85 +1700,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
 </polygon>
 </package>
-<package name="1X02">
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
-<package name="SJ_2S">
-<description>Small solder jumper with big paste layer so it will short during reflow.</description>
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.1524" layer="21"/>
-<wire x1="0.8" y1="1" x2="1.1" y2="0.75" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1" y1="0.75" x2="-0.8" y2="1" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1" y1="-0.75" x2="-0.8" y2="-1" width="0.1524" layer="21" curve="90.114706"/>
-<wire x1="0.8" y1="-1" x2="1.1" y2="-0.75" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.1" y1="-0.75" x2="1.1" y2="0.75" width="0.1524" layer="21"/>
-<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.1524" layer="21"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.1524" layer="21"/>
-<smd name="1" x="-0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
-<smd name="2" x="0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
-<text x="-0.9498" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9498" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.2192" y1="-1.143" x2="1.2192" y2="1.143" layer="31"/>
-</package>
-<package name="1X02_LOCK">
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="-0.1778" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.7178" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
-<rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
-</package>
-<package name="SJ_2S-NO">
-<description>Small solder jumper with no paste layer so it will open after reflow.</description>
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="SJ_2S-NO-NS">
-<smd name="1" x="-0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="RESONATOR">
@@ -1935,20 +1856,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <pin name="4" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="5" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="6" x="5.08" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="JUMPER-2">
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2820,60 +2727,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER-2" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;Jumper&lt;/b&gt;
-Basic 0.1" spaced jumper. Use with breakaway headers.</description>
-<gates>
-<gate name="A" symbol="JUMPER-2" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="1X02">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD-NC" package="SJ_2S">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH_LOCK" package="1X02_LOCK">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD-NO" package="SJ_2S-NO">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD-NO-NS" package="SJ_2S-NO-NS">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="linear">
@@ -3387,14 +3240,14 @@ Often, even a 6 pin header is really inconvenient for board layout and/or produc
 <part name="3.3V3" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
 <part name="JP2" library="SparkFun" deviceset="M06" device="SIP_LOCK" value="HOST"/>
 <part name="JP3" library="SparkFun" deviceset="M06" device="SIP_LOCK" value="DEVICE"/>
-<part name="JP4" library="SparkFun" deviceset="JUMPER-2" device="SMD-NO"/>
+<part name="C6" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1u"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="R1" gate="G$1" x="48.895" y="162.56" rot="R180"/>
+<instance part="R1" gate="G$1" x="48.895" y="166.37" rot="R180"/>
 <instance part="C2" gate="G$1" x="195.58" y="68.58"/>
 <instance part="SUPPLY3" gate="1" x="157.48" y="81.28"/>
 <instance part="SUPPLY10" gate="GND" x="157.48" y="58.42"/>
@@ -3407,8 +3260,8 @@ Often, even a 6 pin header is really inconvenient for board layout and/or produc
 <instance part="C5" gate="G$1" x="48.26" y="138.43" rot="MR180"/>
 <instance part="SUPPLY2" gate="GND" x="41.91" y="131.445" rot="R270"/>
 <instance part="U$6" gate="G$1" x="58.42" y="71.12"/>
-<instance part="RST" gate="G$1" x="47.625" y="154.94" smashed="yes">
-<attribute name="NAME" x="45.085" y="156.972" size="1.27" layer="95" font="vector"/>
+<instance part="RST" gate="G$1" x="47.625" y="160.655" smashed="yes">
+<attribute name="NAME" x="45.085" y="162.687" size="1.27" layer="95" font="vector"/>
 </instance>
 <instance part="PB2" gate="G$1" x="139.7" y="129.54" rot="R270"/>
 <instance part="INT1" gate="G$1" x="132.08" y="129.54" rot="MR90"/>
@@ -3418,9 +3271,9 @@ Often, even a 6 pin header is really inconvenient for board layout and/or produc
 <instance part="R4" gate="G$1" x="139.7" y="106.68" rot="R270"/>
 <instance part="SUPPLY1" gate="GND" x="132.08" y="93.98"/>
 <instance part="SUPPLY4" gate="1" x="132.08" y="137.16"/>
-<instance part="3.3V" gate="1" x="43.18" y="162.56" rot="R90"/>
+<instance part="3.3V" gate="1" x="43.18" y="166.37" rot="R90"/>
 <instance part="SUPPLY6" gate="1" x="43.18" y="142.24" rot="R90"/>
-<instance part="SUPPLY5" gate="GND" x="41.91" y="154.94" rot="R270"/>
+<instance part="SUPPLY5" gate="GND" x="41.91" y="160.655" rot="R270"/>
 <instance part="SJ1" gate="G$1" x="172.72" y="144.78" rot="R180"/>
 <instance part="SJ2" gate="G$1" x="162.56" y="137.16" rot="R180"/>
 <instance part="3.3V1" gate="1" x="172.72" y="152.4"/>
@@ -3432,7 +3285,7 @@ Often, even a 6 pin header is really inconvenient for board layout and/or produc
 <instance part="3.3V3" gate="1" x="44.45" y="106.68" rot="R90"/>
 <instance part="JP2" gate="G$1" x="93.98" y="68.58"/>
 <instance part="JP3" gate="G$1" x="129.54" y="68.58"/>
-<instance part="JP4" gate="A" x="162.56" y="104.14" rot="R90"/>
+<instance part="C6" gate="G$1" x="46.355" y="154.94" rot="MR90"/>
 </instances>
 <busses>
 </busses>
@@ -3511,7 +3364,7 @@ Often, even a 6 pin header is really inconvenient for board layout and/or produc
 </segment>
 <segment>
 <pinref part="RST" gate="G$1" pin="1"/>
-<wire x1="45.085" y1="154.94" x2="44.45" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="45.085" y1="160.655" x2="44.45" y2="160.655" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -3619,25 +3472,24 @@ Often, even a 6 pin header is really inconvenient for board layout and/or produc
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="PC6(/RESET)"/>
-<wire x1="53.975" y1="162.56" x2="54.61" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="54.61" y1="162.56" x2="54.61" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="53.975" y1="166.37" x2="54.61" y2="166.37" width="0.1524" layer="91"/>
+<wire x1="54.61" y1="166.37" x2="54.61" y2="160.655" width="0.1524" layer="91"/>
+<wire x1="54.61" y1="160.655" x2="54.61" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="54.61" y1="154.94" x2="54.61" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="54.61" y1="149.86" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="54.61" y1="149.86" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
 <junction x="54.61" y="149.86"/>
-<label x="43.18" y="147.32" size="1.778" layer="95"/>
+<label x="40.64" y="149.86" size="1.778" layer="95"/>
 <pinref part="RST" gate="G$1" pin="2"/>
-<wire x1="54.61" y1="154.94" x2="50.165" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="54.61" y1="160.655" x2="50.165" y2="160.655" width="0.1524" layer="91"/>
+<junction x="54.61" y="160.655"/>
+<wire x1="51.435" y1="154.94" x2="54.61" y2="154.94" width="0.1524" layer="91"/>
 <junction x="54.61" y="154.94"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="P$3"/>
 <wire x1="48.26" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP4" gate="A" pin="1"/>
-<wire x1="165.1" y1="104.14" x2="172.72" y2="104.14" width="0.1524" layer="91"/>
-<label x="167.64" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3740,7 +3592,7 @@ Often, even a 6 pin header is really inconvenient for board layout and/or produc
 <segment>
 <pinref part="3.3V" gate="1" pin="VCC"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="162.56" x2="43.815" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="166.37" x2="43.815" y2="166.37" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="55.88" y1="144.78" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
@@ -3807,9 +3659,9 @@ Often, even a 6 pin header is really inconvenient for board layout and/or produc
 <label x="106.68" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="2"/>
-<wire x1="165.1" y1="106.68" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
-<label x="167.64" y="106.68" size="1.778" layer="95"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="43.815" y1="154.94" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
+<label x="40.64" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A1" class="0">
